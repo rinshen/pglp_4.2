@@ -11,8 +11,8 @@ public class MoteurRPN extends Interpreteur {
 	}
 	
 	public double pop() {
-		double res=pile.get(pile.size());
-		pile.remove(pile.size());
+		double res=pile.get(pile.size()-1);
+		pile.remove(pile.size()-1);
 		return res;
 	}
 	
@@ -22,7 +22,7 @@ public class MoteurRPN extends Interpreteur {
 	}
 	
 	public void soustraction(double op1, double op2) {
-		double res=op1-op2;
+		double res=op2-op1;
 		pile.add(res);
 	}
 	
@@ -37,20 +37,34 @@ public class MoteurRPN extends Interpreteur {
 	}
 	
 	public void execute_operateur(String op) {
-		double op1=pop();
-		double op2=pop();
+		double op1;
+		double op2;
 		switch(op) {
 			case "+":
+				op1=pop();
+				op2=pop();
 				addition(op1,op2);
 			break;
 			case "-":
+				op1=pop();
+				op2=pop();
 				soustraction(op1,op2);
 			break;
 			case "*":
+				op1=pop();
+				op2=pop();
 				multiplication(op1,op2);
 			break;
 			case "/":
+				op1=pop();
+				op2=pop();
 				division(op1,op2);
+			break;
+			case "undo":
+				undo();
+			break;
+			case "quit":
+				quit();
 			break;
 			default:
 				System.out.println("operation non reconnue");

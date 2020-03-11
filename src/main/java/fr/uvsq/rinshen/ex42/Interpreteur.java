@@ -11,7 +11,7 @@ public class Interpreteur
 	}
 	
     public void undo() {
-    	pile.remove(pile.size());
+    	pile.remove(pile.size()-1);
     }
     
     public void quit() {
