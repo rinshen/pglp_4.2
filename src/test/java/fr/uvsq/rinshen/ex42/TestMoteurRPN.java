@@ -11,7 +11,7 @@ public class TestMoteurRPN {
 		MoteurRPN moteur=new MoteurRPN();
 		double val = 5;
 		double test = val;
-		moteur.ajoute_operande(val);
+		moteur.ajouteOperande(val);
 		double res = moteur.pop();
 		assertEquals(test, res, 0);
 	}
@@ -22,9 +22,9 @@ public class TestMoteurRPN {
 		double val1 = 5;
 		double val2 = 4;
 		double test = 9;
-		moteur.ajoute_operande(val1);
-		moteur.ajoute_operande(val2);
-		moteur.execute_operateur("+");
+		moteur.ajouteOperande(val1);
+		moteur.ajouteOperande(val2);
+		moteur.executeOperateur("+");
 		double res =  moteur.pop();
 		assertEquals(test, res, 0);
 	}
@@ -35,9 +35,9 @@ public class TestMoteurRPN {
 		double val1 = 5;
 		double val2 = 4;
 		double test = 1;
-		moteur.ajoute_operande(val1);
-		moteur.ajoute_operande(val2);
-		moteur.execute_operateur("-");
+		moteur.ajouteOperande(val1);
+		moteur.ajouteOperande(val2);
+		moteur.executeOperateur("-");
 		double res =  moteur.pop();
 		assertEquals(test, res, 0);
 	}
@@ -48,9 +48,9 @@ public class TestMoteurRPN {
 		double val1 = 5;
 		double val2 = 4;
 		double test = 20;
-		moteur.ajoute_operande(val1);
-		moteur.ajoute_operande(val2);
-		moteur.execute_operateur("*");
+		moteur.ajouteOperande(val1);
+		moteur.ajouteOperande(val2);
+		moteur.executeOperateur("*");
 		double res =  moteur.pop();
 		assertEquals(test, res, 0);
 	}
@@ -61,9 +61,9 @@ public class TestMoteurRPN {
 		double val1 = 5;
 		double val2 = 4;
 		double test = 1.25;
-		moteur.ajoute_operande(val1);
-		moteur.ajoute_operande(val2);
-		moteur.execute_operateur("/");
+		moteur.ajouteOperande(val1);
+		moteur.ajouteOperande(val2);
+		moteur.executeOperateur("/");
 		double res =  moteur.pop();
 		assertEquals(test, res, 0);
 	}
@@ -74,9 +74,9 @@ public class TestMoteurRPN {
 		double val1 = 5;
 		double val2 = 0;
 		double test = Double.POSITIVE_INFINITY;
-		moteur.ajoute_operande(val1);
-		moteur.ajoute_operande(val2);
-		moteur.execute_operateur("/");
+		moteur.ajouteOperande(val1);
+		moteur.ajouteOperande(val2);
+		moteur.executeOperateur("/");
 		double res =  moteur.pop();
 		assertEquals(test, res, 0);
 	}
@@ -87,8 +87,8 @@ public class TestMoteurRPN {
 		double val1 = 5;
 		double val2 = 4;
 		double test = val1;
-		moteur.ajoute_operande(val1);
-		moteur.ajoute_operande(val2);
+		moteur.ajouteOperande(val1);
+		moteur.ajouteOperande(val2);
 		moteur.undo();
 		double res =  moteur.pop();
 		assertEquals(test, res, 0);

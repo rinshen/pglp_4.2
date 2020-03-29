@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: fr.uvsq.rinshen.ex42.TestMoteurRPN
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.516 sec
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.266 sec

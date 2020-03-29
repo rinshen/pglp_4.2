@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="fr.uvsq.rinshen.ex42.TestMoteurRPN" time="0.022" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="fr.uvsq.rinshen.ex42.TestMoteurRPN" time="0.016" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="13+33"/>
@@ -60,11 +60,11 @@
     <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="fr.uvsq.rinshen.ex42.TestMoteurRPN" name="test_multiplication" time="0.02"/>
+  <testcase classname="fr.uvsq.rinshen.ex42.TestMoteurRPN" name="test_multiplication" time="0.016"/>
   <testcase classname="fr.uvsq.rinshen.ex42.TestMoteurRPN" name="test_undo" time="0"/>
   <testcase classname="fr.uvsq.rinshen.ex42.TestMoteurRPN" name="test_division" time="0"/>
   <testcase classname="fr.uvsq.rinshen.ex42.TestMoteurRPN" name="test_division_zero" time="0"/>
   <testcase classname="fr.uvsq.rinshen.ex42.TestMoteurRPN" name="test_ajoute_operande" time="0"/>
-  <testcase classname="fr.uvsq.rinshen.ex42.TestMoteurRPN" name="test_soustraction" time="0.002"/>
+  <testcase classname="fr.uvsq.rinshen.ex42.TestMoteurRPN" name="test_soustraction" time="0"/>
   <testcase classname="fr.uvsq.rinshen.ex42.TestMoteurRPN" name="test_addition" time="0"/>
 </testsuite>
