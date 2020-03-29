@@ -70,7 +70,15 @@ public class TestMoteurRPN {
 	
 	@Test
 	public void test_division_zero() {
-		fail("Not yet implemented");
+		MoteurRPN moteur=new MoteurRPN();
+		double val1 = 5;
+		double val2 = 0;
+		double test = Double.POSITIVE_INFINITY;
+		moteur.ajoute_operande(val1);
+		moteur.ajoute_operande(val2);
+		moteur.execute_operateur("/");
+		double res =  moteur.pop();
+		assertEquals(test, res, 0);
 	}
 	
 	@Test
