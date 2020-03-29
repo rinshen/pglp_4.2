@@ -10,15 +10,23 @@ public class TestMoteurRPN {
 	public void test_ajoute_operande() {
 		MoteurRPN moteur=new MoteurRPN();
 		double val = 5;
-		double res=0;
+		double test = 0;
 		moteur.ajoute_operande(val);
-		test=moteur.pop();
-		assertEquals(res, val, 0);
+		double res = moteur.pop();
+		assertEquals(test, res, 0);
 	}
 
 	@Test
 	public void test_addition() {
-		fail("Not yet implemented");
+		MoteurRPN moteur=new MoteurRPN();
+		double val1 = 5;
+		double val2 = 4;
+		double test = 9;
+		moteur.ajoute_operande(val1);
+		moteur.ajoute_operande(val2);
+		moteur.execute_operateur("+");
+		double res =  moteur.pop();
+		assertEquals(test, res, 0);
 	}
 
 	@Test
@@ -38,11 +46,6 @@ public class TestMoteurRPN {
 	
 	@Test
 	public void test_division_zero() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void test_execute_operateur() {
 		fail("Not yet implemented");
 	}
 	
