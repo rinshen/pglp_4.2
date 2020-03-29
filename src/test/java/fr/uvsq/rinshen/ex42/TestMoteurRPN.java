@@ -75,7 +75,15 @@ public class TestMoteurRPN {
 	
 	@Test
 	public void test_undo() {
-		fail("Not yet implemented");
+		MoteurRPN moteur=new MoteurRPN();
+		double val1 = 5;
+		double val2 = 4;
+		double test = val1;
+		moteur.ajoute_operande(val1);
+		moteur.ajoute_operande(val2);
+		moteur.undo();
+		double res =  moteur.pop();
+		assertEquals(test, res, 0);
 	}
 
 }
