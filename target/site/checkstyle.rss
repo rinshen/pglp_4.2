@@ -19,14 +19,14 @@ under the License.
 -->
 <rss version="0.91">
   <channel>
-    <title>ex32 - Checkstyle report</title>
+    <title>ex42 - Checkstyle report</title>
     <link>http://maven.apache.org</link>
-    <description>ex32 - Checkstyle report</description>
+    <description>ex42 - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2020</copyright>
     <item>
       <title>File: 4,
-             Errors: 133,
+             Errors: 119,
              Warnings: 0,
              Infos: 0
       </title>
@@ -55,7 +55,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  90
+                  76
                 </td>
               </tr>
                           <tr>

@@ -10,7 +10,7 @@ public class TestMoteurRPN {
 	public void test_ajoute_operande() {
 		MoteurRPN moteur=new MoteurRPN();
 		double val = 5;
-		double test = 0;
+		double test = val;
 		moteur.ajoute_operande(val);
 		double res = moteur.pop();
 		assertEquals(test, res, 0);
@@ -34,7 +34,7 @@ public class TestMoteurRPN {
 		MoteurRPN moteur=new MoteurRPN();
 		double val1 = 5;
 		double val2 = 4;
-		double test = -1;
+		double test = 1;
 		moteur.ajoute_operande(val1);
 		moteur.ajoute_operande(val2);
 		moteur.execute_operateur("-");
