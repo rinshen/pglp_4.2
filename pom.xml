@@ -21,21 +21,10 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>1.7</version>
       </plugin>
-      <plugin>
+  	  <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>3.1.0</version>
-        <configuration>
-    	  <configLocation>./checkstyle.xml</configLocation>
-     	  <encoding>UTF-8</encoding>
-   		</configuration>
-        <reportSets>
-          <reportSet>
-            <reports>
-              <report>checkstyle</report>
-            </reports>
-          </reportSet>
-        </reportSets>
+        <artifactId>maven-jxr-plugin</artifactId>
+        <version>2.3</version>
       </plugin>
       <plugin>
 		<groupId>com.github.spotbugs</groupId>
@@ -45,6 +34,18 @@
     </plugins>
   </reporting>
 
+  <build>
+  	<plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <version>3.1.1</version>
+        <configuration>
+    	  <configLocation>checkstyle.xml</configLocation>
+   		</configuration>
+      </plugin>
+  	</plugins>
+  </build>
 
   <dependencies>
     <dependency>

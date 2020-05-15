@@ -1,6 +1,9 @@
-#Mon Mar 30 01:16:39 CEST 2020
-configuration*?=D273B41C90CD1D5C0C1F18689E5EC9F8B1BDC9E7
-C\:\\Users\\khanj\\eclipse-workspace\\ex42\\src\\main\\java\\fr\\uvsq\\rinshen\\ex42\\CalculatriceRPN.java=1585522776274
-C\:\\Users\\khanj\\eclipse-workspace\\ex42\\src\\main\\java\\fr\\uvsq\\rinshen\\ex42\\SaisieRPN.java=1585522776305
-C\:\\Users\\khanj\\eclipse-workspace\\ex42\\src\\main\\java\\fr\\uvsq\\rinshen\\ex42\\Interpreteur.java=1585521005550
-C\:\\Users\\khanj\\eclipse-workspace\\ex42\\src\\main\\java\\fr\\uvsq\\rinshen\\ex42\\MoteurRPN.java=1585522723458
+#Fri May 15 13:44:02 CEST 2020
+C\:\\Users\\khanj\\eclipse-workspace\\ex42\\src\\main\\java\\fr\\uvsq\\rinshen\\ex42\\CalculatriceRpn.java=1589543034956
+configuration*?=BC655870CFE2EEDC438D76897C9B6126A93A0C6
+C\:\\Users\\khanj\\eclipse-workspace\\ex42\\src\\main\\java\\fr\\uvsq\\rinshen\\ex42\\SaisieRpn.java=1589542762800
+module-resource*?\:checkstyle-xpath-suppressions.xml=7E4BBE3727B176F5E4D1EBDF16A04DAEA8D3CFE
+module-resource*?\:checkstyle-suppressions.xml=CC094CC70CDFF9EA3A2B3562C865F54A2B074900
+C\:\\Users\\khanj\\eclipse-workspace\\ex42\\src\\main\\java\\fr\\uvsq\\rinshen\\ex42\\package-info.java=1589542398338
+C\:\\Users\\khanj\\eclipse-workspace\\ex42\\src\\main\\java\\fr\\uvsq\\rinshen\\ex42\\MoteurRpn.java=1589542750846
+C\:\\Users\\khanj\\eclipse-workspace\\ex42\\src\\main\\java\\fr\\uvsq\\rinshen\\ex42\\Interpreteur.java=1589542434592

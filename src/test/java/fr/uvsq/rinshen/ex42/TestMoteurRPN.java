@@ -8,7 +8,7 @@ public class TestMoteurRPN {
 
 	@Test
 	public void test_ajoute_operande() {
-		MoteurRPN moteur=new MoteurRPN();
+		MoteurRpn moteur=new MoteurRpn();
 		double val = 5;
 		double test = val;
 		moteur.ajouteOperande(val);
@@ -18,7 +18,7 @@ public class TestMoteurRPN {
 
 	@Test
 	public void test_addition() {
-		MoteurRPN moteur=new MoteurRPN();
+		MoteurRpn moteur=new MoteurRpn();
 		double val1 = 5;
 		double val2 = 4;
 		double test = 9;
@@ -31,7 +31,7 @@ public class TestMoteurRPN {
 
 	@Test
 	public void test_soustraction() {
-		MoteurRPN moteur=new MoteurRPN();
+		MoteurRpn moteur=new MoteurRpn();
 		double val1 = 5;
 		double val2 = 4;
 		double test = 1;
@@ -44,7 +44,7 @@ public class TestMoteurRPN {
 
 	@Test
 	public void test_multiplication() {
-		MoteurRPN moteur=new MoteurRPN();
+		MoteurRpn moteur=new MoteurRpn();
 		double val1 = 5;
 		double val2 = 4;
 		double test = 20;
@@ -57,7 +57,7 @@ public class TestMoteurRPN {
 
 	@Test
 	public void test_division() {
-		MoteurRPN moteur=new MoteurRPN();
+		MoteurRpn moteur=new MoteurRpn();
 		double val1 = 5;
 		double val2 = 4;
 		double test = 1.25;
@@ -70,7 +70,7 @@ public class TestMoteurRPN {
 	
 	@Test
 	public void test_division_zero() {
-		MoteurRPN moteur=new MoteurRPN();
+		MoteurRpn moteur=new MoteurRpn();
 		double val1 = 5;
 		double val2 = 0;
 		double test = Double.POSITIVE_INFINITY;
@@ -83,7 +83,7 @@ public class TestMoteurRPN {
 	
 	@Test
 	public void test_undo() {
-		MoteurRPN moteur=new MoteurRPN();
+		MoteurRpn moteur=new MoteurRpn();
 		double val1 = 5;
 		double val2 = 4;
 		double test = val1;

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="8.19">
-<file name="C:\Users\khanj\eclipse-workspace\ex42\src\main\java\fr\uvsq\rinshen\ex42\package-info.java">
-<error line="1" severity="error" message="La première ligne de la Javadoc doit se terminer avec un point." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<checkstyle version="8.29">
+<file name="C:\Users\khanj\eclipse-workspace\ex42\src\main\java\fr\uvsq\rinshen\ex42\CalculatriceRpn.java">
 </file>
 </checkstyle>
